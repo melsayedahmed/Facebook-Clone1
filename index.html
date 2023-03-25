@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Facebook-logo111.png" type="icon/jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <section class="container_1">
+            <div class="left">
+                <img src="images/20210720031429!Facebook_Logo_(2019).svg" alt="">
+                <p class="p_left">Facebook helps you connect and share with the people in your life.</p>
+            </div>
+            <div class="main_right">
+                <div class="right">
+                    <div class="top">
+                        <form class="log_in" action="home.html" method="" id="form" onsubmit="return formValidate()">
+                            <input type="text" name="" id="login_email" value=""
+                                placeholder="Email address or phone number">
+                            <small class="user_error" id="userError"></small>
+                            <input type="password" name="" id="login_pass" value="" placeholder="Password">
+                            <small class="pass_error" id="passError"></small>
+                            <input type="submit" value="Log in">
+                        </form>
+                        <a href="" class="forgot">Forgotten password?</a>
+                        <form id="no_refresh" action="" class="creat" onsubmit="return false">
+                            <input id="creat_account" onclick="openPopUp()" type="submit" value="Creat new account">
+                        </form>
+                    </div>
+                </div>
+                <p class="p_left"><a href="">Creat a page</a> for a celebrity, brand or business.</p>
+            </div>
+        </section>
+    </main>
+    <footer id="foot">
+        <ul class="lang">
+            <li><a href="">English (UK)</a></li>
+            <li><a href="">العربية</a></li>
+            <li><a href="">فارسى</a></li>
+            <li><a href="">Türkçe</a></li>
+            <li><a href="">Bahasa Indonesia</a></li>
+            <li><a href="">Français (France)</a></li>
+            <li><a href="">বাংলা</a></li>
+            <li><a href="">தமிழ்</a></li>
+            <li><a href="">हिन्दी</a></li>
+            <li><a href="">Español</a></li>
+            <li><a href="">Português (Brasil)</a></li>
+        </ul>
+        <div class="data">
+            <a href="">Sign Up</a>
+            <a href="">Log in</a>
+            <a href="">Messenger</a>
+            <a href="">Facebook Lite</a>
+            <a href="">Watch</a>
+            <a href="">Places</a>
+            <a href="">Games</a>
+            <a href="">Marketplace</a>
+            <a href="">Meta Pay</a>
+            <a href="">Oculus</a>
+            <a href="">Portal</a>
+            <a href="">Instagram</a>
+            <a href="">Bulletin</a>
+            <a href="">Fundraisers</a>
+            <a href="">Services</a>
+            <a href="">Voting Information Center</a>
+            <a href="">Privacy Center</a>
+            <a href="">Groups</a>
+            <a href="">About</a>
+            <a href="">Creat Ad</a>
+            <a href="">Creat Page</a>
+            <a href="">Developers</a>
+            <a href="">Careers</a>
+            <a href="">cookies</a>
+            <a href="">ADChoices <i class="fa-brands fa-google-play"></i></a>
+            <a href="">Terms</a>
+            <a href="">Help</a>
+            <a href="">Contact Uploading and non-users</a>
+        </div>
+        <p>Meta © 2023</p>
+    </footer>
+    <div id="popUp" class="window">
+        <section class="sec_2" id="">
+            <div class="popup">
+                <div class="title">
+                    <div class="title_top">
+                        <p>Sign Up</p>
+                        <i class="fa-solid fa-xmark" id="" onclick="closePopUp()"></i>
+                    </div>
+                    <p class="tit_p">It's quick and easy</p>
+                </div>
+                <form action="home.html" class="user_name" onsubmit="return signUpValidate()">
+                    <div class="firstdata">
+                        <div class="fone">
+                            <input type="text" name="fname" id="firstname" placeholder="First name">
+                            <small class="f_name" id="f_nameError"></small>
+                        </div>
+                        <div class="fone">
+                            <input type="text" name="sname" id="surname" placeholder="Surname">
+                            <small class="s_name" id="s_nameError"></small>
+                        </div>
+                    </div>
+                    <div action="" class="user_data">
+                        <input type="text" name="mob_ema" id="mob_mail" placeholder="Mobile number or email address">
+                        <small id="mail_error"></small>
+                        <input type="password" name="passw" id="pass" placeholder="New password">
+                        <small id="pass_error"></small>
+                    </div>
+                    <p class="date_birth">Date of birth <i class="fa-solid fa-circle-question"></i></p>
+                    <div action="" class="birth">
+                        <select name="day" id="days">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+                        <select name="month" id="months">
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">October</option>
+                            <option value="">November </option>
+                            <option value="">December</option>
+                        </select>
+                        <select name="year" id="years">
+                            <option value="">2023</option>
+                            <option value="">2022</option>
+                            <option value="">2021</option>
+                            <option value="">2020</option>
+                            <option value="">2019</option>
+                            <option value="">2018</option>
+                            <option value="">2017</option>
+                            <option value="">2016</option>
+                            <option value="">2015</option>
+                            <option value="">2014</option>
+                            <option value="">2013</option>
+                            <option value="">2012</option>
+                            <option value="">2011</option>
+                            <option value="">2010</option>
+                            <option value="">2009</option>
+                            <option value="">2008</option>
+                            <option value="">2007</option>
+                            <option value="">2006</option>
+                            <option value="">2005</option>
+                            <option value="">2004</option>
+                        </select>
+                    </div>
+                    <p class="date_birth">Gender <i class="fa-solid fa-circle-question"></i></p>
+                    <div class="gender">
+                        <div class="allgend">
+                            <label for="fema">Female</label>
+                            <input type="radio" name="gend" id="fema">
+                        </div>
+                        <div class="allgend">
+                            <label for="mal">Male</label>
+                            <input type="radio" name="gend" id="mal">
+                        </div>
+                        <div class="allgend">
+                            <label for="cust">Custom</label>
+                            <input type="radio" name="gend" id="cust">
+                        </div>
+                    </div>
+                    <p class="lower">People who use our service may have uploaded your contact information to Facebook.
+                        <a href=""> Learn more.</a></p>
+                    <p class="lower">By clicking Sign Up, you agree to our <a href="">Terms,</a><a href="">Privacy
+                            Policy</a> and <a href="">Cookies Policy.</a> You may receive SMS notifications from us and
+                        can opt out at any time</p>
+                    <div class="sign_up">
+                        <input type="submit" value="Sign Up">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
